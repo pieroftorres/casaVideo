@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Piero\\Desktop\\casaVideo\\casaVideo.csproj": {}
+    "C:\\Users\\Piero\\Documents\\C#\\casaVideo\\casaVideo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Piero\\Desktop\\casaVideo\\casaVideo.csproj": {
+    "C:\\Users\\Piero\\Documents\\C#\\casaVideo\\casaVideo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piero\\Desktop\\casaVideo\\casaVideo.csproj",
+        "projectUniqueName": "C:\\Users\\Piero\\Documents\\C#\\casaVideo\\casaVideo.csproj",
         "projectName": "casaVideo",
-        "projectPath": "C:\\Users\\Piero\\Desktop\\casaVideo\\casaVideo.csproj",
+        "projectPath": "C:\\Users\\Piero\\Documents\\C#\\casaVideo\\casaVideo.csproj",
         "packagesPath": "C:\\Users\\Piero\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piero\\Desktop\\casaVideo\\obj\\",
+        "outputPath": "C:\\Users\\Piero\\Documents\\C#\\casaVideo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

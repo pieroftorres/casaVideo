@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eDuIP2yzIyv0y09jL42vuZSBOSuexZdoSw2rmzHb87SUpjqU7gFsKEg+x2lzWug/OGc2qWLHWHxFkb0VFNx38w==",
+  "dgSpecHash": "QqRuL8i2V2/riyD8cvbV9i0wjPijEwXt7cNnPBMJX6+V2nVGFDN5wioxawI1+nscwan5MWlRUO1lpMW+4EkH8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Piero\\Desktop\\casaVideo\\casaVideo.csproj",
+  "projectFilePath": "C:\\Users\\Piero\\Documents\\C#\\casaVideo\\casaVideo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Piero\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Piero\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
