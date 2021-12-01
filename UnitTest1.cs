@@ -72,7 +72,7 @@ namespace minhaAutomacao
 
             Thread.Sleep(2000);
 
-            ((ITakesScreenshot)driver).GetScreenshot().SaveAsFile("sample.png", ScreenshotImageFormat.Png);
+            ((ITakesScreenshot)driver).GetScreenshot().SaveAsFile("1resultado.png", ScreenshotImageFormat.Png);
 
             driver.Quit();
         }
