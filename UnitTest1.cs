@@ -5,6 +5,7 @@ using System;
 using System.IO;
 using System.Reflection;
 using System.Threading;
+using OpenQA.Selenium.Support.Events;
 
 namespace minhaAutomacao
 {
@@ -52,7 +53,7 @@ namespace minhaAutomacao
             nome.SendKeys("André");
 
             IWebElement email = driver.FindElement(By.Id("pre-sign-up-form-email"));
-            email.SendKeys("exemplo310@exemplo.com");
+            email.SendKeys(GerarCpf() + "@exemplo.com");
 
             IWebElement cpf = driver.FindElement(By.Id("pre-sign-up-form-cpf"));
             cpf.SendKeys(GerarCpf());
@@ -70,6 +71,8 @@ namespace minhaAutomacao
             Assert.AreEqual(urlPaginaAtual, urlCadastroCompleto, "\nA URL esperada é diferente da URL apresentada pelo navegador.");
 
             Thread.Sleep(2000);
+
+            ((ITakesScreenshot)driver).GetScreenshot().SaveAsFile("sample.png", ScreenshotImageFormat.Png);
 
             driver.Quit();
         }
