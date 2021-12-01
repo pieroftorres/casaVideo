@@ -52,7 +52,7 @@ namespace minhaAutomacao
             nome.SendKeys("André");
 
             IWebElement email = driver.FindElement(By.Id("pre-sign-up-form-email"));
-            email.SendKeys("exemplo311@exemplo.com");
+            email.SendKeys("exemplo310@exemplo.com");
 
             IWebElement cpf = driver.FindElement(By.Id("pre-sign-up-form-cpf"));
             cpf.SendKeys(GerarCpf());
