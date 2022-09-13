@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Piero\\Documents\\C#\\casaVideo\\casaVideo.csproj": {}
+    "C:\\Users\\piero\\OneDrive\\Documentos\\GitHub\\casaVideo\\casaVideo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Piero\\Documents\\C#\\casaVideo\\casaVideo.csproj": {
+    "C:\\Users\\piero\\OneDrive\\Documentos\\GitHub\\casaVideo\\casaVideo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piero\\Documents\\C#\\casaVideo\\casaVideo.csproj",
+        "projectUniqueName": "C:\\Users\\piero\\OneDrive\\Documentos\\GitHub\\casaVideo\\casaVideo.csproj",
         "projectName": "casaVideo",
-        "projectPath": "C:\\Users\\Piero\\Documents\\C#\\casaVideo\\casaVideo.csproj",
-        "packagesPath": "C:\\Users\\Piero\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piero\\Documents\\C#\\casaVideo\\obj\\",
+        "projectPath": "C:\\Users\\piero\\OneDrive\\Documentos\\GitHub\\casaVideo\\casaVideo.csproj",
+        "packagesPath": "C:\\Users\\piero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\piero\\OneDrive\\Documentos\\GitHub\\casaVideo\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,12 +75,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
